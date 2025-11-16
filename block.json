@@ -1,0 +1,38 @@
+{
+    "apiVersion": 2,
+    "name": "my-plugin/faq",
+    "title": "Sekcja - FAQ",
+    "category": "category",
+    "description": "Sekcja FAQ",
+    "supports": {
+        "html": false
+    },
+    "attributes": {
+        "tag": {
+            "type": "string",
+            "default": "h2"
+        },
+        "heading": {
+            "type": "string",
+            "default": "FAQ - często zadawane pytania"
+        },
+        "tables": {
+            "type": "array",
+            "default": [
+                {
+                    "id": "table-1",
+                    "faqs": [
+                        {
+                            "id": "faq3",
+                            "question": "Pytanie",
+                            "answer": "Odpowiedź"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "editorScript": "file:./build/index.js",
+    "editorStyle": "file:faq-editor.css",
+    "render": "file:./render.php"
+}

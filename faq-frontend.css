@@ -1,0 +1,13 @@
+.faq_block_section {}
+.faq_block_container {}
+.faq_block_heading {}
+.faq_block_faqs {}
+.faq_block_faqs_column {}
+.faq_block_faq {}
+.faq_block_faq::before {}
+.faq_block_faq.open_faq::before {}
+.faq_block_faq_question {}
+.faq_block_faq_question:hover {}
+.faq_block_faq_answer_box {}
+.faq_block_faq.open_faq .faq_block_faq_answer_box {}
+.faq_block_faq_answer {}
