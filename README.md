@@ -1,1 +1,3 @@
 # gutenberg-faq
+
+Sekcja FAQ
